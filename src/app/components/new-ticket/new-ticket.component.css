@@ -1,0 +1,46 @@
+.new-ticket-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .limited-width-textarea {
+            max-width: 100%;
+        }
+        .btn-custom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-custom span {
+            margin-left: 5px;
+        }
+        .form-control {
+            margin-bottom: 10px;
+            max-width: 100%;
+            width: 100%;
+            .form-control:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
+            min-width: 100%;
+        }
+        #description {
+            height: 100px;
+            min-height: 50px;
+        }
+        #new-ticket {
+  width: 15rem;
+}
+

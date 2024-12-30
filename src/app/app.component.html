@@ -1,0 +1,20 @@
+
+<header>
+  <app-header></app-header>
+  <app-nav></app-nav>
+</header>
+<main>
+  <div id="dashboard">
+    <div class="dashboard-item">
+      <app-serverstatus [currentStatus]="currentStatus()"></app-serverstatus>
+    </div>
+
+    <div class="dashboard-item">
+      <app-traffic [dummyTrafficData]="dummytrafficData()" ></app-traffic>
+    </div>
+
+    <div class="dashboard-item">
+      <app-tickets></app-tickets>
+    </div>
+  </div>
+</main>
